@@ -1,0 +1,56 @@
+.project {
+}
+
+.projects__row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.project {
+  width: 45%;
+  position: relative;
+  border-radius: 7px;
+}
+
+.project:hover .overlay {
+  opacity: 1 !important;
+  transition: 500ms;
+}
+
+.project > img {
+  width: 100%;
+  border-radius: 7px;
+}
+.overlay {
+  opacity: 0;
+  position: absolute;
+  bottom: 14px;
+  left: 10px;
+}
+
+.name {
+  color: #fff;
+}
+
+.project__links {
+  display: flex;
+  margin-top: 10px;
+}
+
+.project__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #42a5f5;
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.project__link:hover {
+  background-color: #3295f5;
+}

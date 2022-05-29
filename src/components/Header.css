@@ -1,0 +1,130 @@
+.header {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__border {
+  border: 3.5px solid #42a5f5;
+  justify-self: center;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.75rem;
+}
+.profile__pic {
+  width: 118px;
+  height: 118px;
+  background: linear-gradient(
+    180deg,
+    hsla(207, 90%, 61%, 1) 0%,
+    hsla(207, 90%, 61%, 0.2) 100%
+  );
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.profile__pic > img {
+  width: 90px;
+}
+
+h2 {
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+  margin-top: 5px;
+  color: #888;
+  font-size: 14px;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.links > a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #555;
+  margin: 0 7px;
+}
+
+.links > a:hover {
+  color: #42a5f5;
+}
+
+.profile__info {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  column-gap: 3.5rem;
+}
+
+.profile__info-group {
+  text-align: center;
+}
+
+.profile__info-number {
+  font-size: 0.938rem;
+  margin-bottom: 0.25rem;
+}
+
+.profile__info-description {
+  font-size: 0.813rem;
+  font-weight: 500;
+  color: #666;
+}
+.profile__links {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.profile__links > a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #42a5f5;
+  width: 160px;
+  text-align: center;
+  padding: 18px 8px;
+  border-radius: 7px;
+}
+
+.profile__links > a:hover {
+  background-color: #3294f5;
+}
+
+.social__links {
+  display: flex;
+  align-items: center;
+}
+
+.social__links > a {
+  height: 80%;
+  text-decoration: none;
+  color: #222;
+  background-color: #e9ebec;
+  border-radius: 7px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin-left: 5px;
+}
+.social__links > a:hover {
+  background-color: #d6d8da;
+}

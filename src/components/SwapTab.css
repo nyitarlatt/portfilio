@@ -1,0 +1,31 @@
+.swaptab {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.swap__container {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9ebec;
+  padding: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.swap__container > div {
+  width: 144px;
+  padding: 16px;
+  text-align: center;
+  background-color: #e9ebec;
+  border-radius: 7px;
+}
+
+.swap__container > div:hover {
+  background-color: #fff;
+}
+
+.swap__container > .active {
+  background-color: #fff;
+}
